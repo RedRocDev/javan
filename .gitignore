@@ -1,0 +1,34 @@
+# Secrets and per-machine files
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.token
+**/credentials.json
+**/secrets.json
+**/.ssh/
+**/.aws/
+**/.gnupg/
+
+# Rust / Node / Tauri
+target/
+node_modules/
+dist/
+build/
+.vite/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Local databases/caches
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+.cache/
+logs/
+*.log
