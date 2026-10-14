@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Javan — One workspace. Everything connected.">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c1222"/><stop offset=".55" stop-color="#14233a"/><stop offset="1" stop-color="#152b37"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#54d5d0"/><stop offset="1" stop-color="#af9dff"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#55b9de" stop-opacity=".25"/><stop offset="1" stop-color="#55b9de" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="380" rx="28" fill="url(#bg)"/>
+<circle cx="920" cy="130" r="290" fill="url(#glow)"/>
+<g fill="none" stroke="#94d6ec" stroke-opacity=".17">
+ <path d="M0 315H1200 M0 345H1200 M690 0V380 M730 0V380 M770 0V380 M810 0V380 M850 0V380 M890 0V380 M930 0V380 M970 0V380 M1010 0V380 M1050 0V380 M1090 0V380 M1130 0V380"/>
+</g>
+<g transform="translate(68,74)">
+ <rect width="72" height="72" rx="18" fill="none" stroke="url(#accent)" stroke-width="5"/>
+ <path d="M17 25h17v23c0 7-5 12-13 12M43 25l10 23 10-23" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+ <text x="0" y="147" fill="#f5f9ff" font-family="Arial, sans-serif" font-size="90" font-weight="700" letter-spacing="8">JAVAN</text>
+ <text x="2" y="190" fill="#bdcfe5" font-family="Arial, sans-serif" font-size="24" letter-spacing="1">One workspace. Everything connected.</text>
+ <text x="2" y="245" fill="#79d8d4" font-family="Arial, sans-serif" font-size="16" letter-spacing="2">RUST · TAURI · MODULAR · LOCAL-FIRST</text>
+</g>
+<g transform="translate(792,70)" stroke-width="2">
+ <rect x="0" y="0" width="320" height="230" rx="16" fill="#0b1423" stroke="#4e718b"/>
+ <path d="M0 46h320 M92 46v184 M238 46v184" stroke="#2a475d"/>
+ <circle cx="24" cy="24" r="6" fill="#59cbbf"/><circle cx="44" cy="24" r="6" fill="#93a5db"/><circle cx="64" cy="24" r="6" fill="#4c6580"/>
+ <g fill="#28445b"><rect x="15" y="66" width="61" height="7" rx="3"/><rect x="15" y="88" width="52" height="7" rx="3"/><rect x="15" y="110" width="58" height="7" rx="3"/><rect x="15" y="132" width="44" height="7" rx="3"/></g>
+ <rect x="109" y="67" width="110" height="12" rx="4" fill="#438aa1"/>
+ <rect x="109" y="93" width="110" height="70" rx="6" fill="#152d40"/>
+ <path d="M122 148l27-31 18 17 21-26 20 40" stroke="#55cdbf" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+ <g fill="#2e5162"><rect x="109" y="178" width="110" height="7" rx="3"/><rect x="109" y="195" width="82" height="7" rx="3"/></g>
+ <rect x="252" y="68" width="72" height="12" rx="4" fill="#887ed1"/><rect x="252" y="97" width="56" height="7" rx="3" fill="#35546d"/><rect x="252" y="114" width="67" height="7" rx="3" fill="#35546d"/><rect x="252" y="145" width="67" height="33" rx="6" fill="#213e4b" stroke="#477e90"/>
+</g>
+</svg>
