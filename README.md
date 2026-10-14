@@ -1,5 +1,7 @@
 <div align="center">
 
+![Javan — One workspace. Everything connected.](assets/javan-banner.svg)
+
 # JAVAN
 ### One workspace. Everything connected.
 
